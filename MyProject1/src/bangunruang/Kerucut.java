@@ -16,7 +16,7 @@ public class Kerucut {
     int tinggi;
     
     // methods
-    public void hitungVolume(){
+    public void hitungVol(){
         double hasil = (double) 1 / 3 * Math.PI * jariJari * jariJari * tinggi;
         System.out.println("Volume kerucut: " + hasil);
     }
@@ -32,7 +32,7 @@ public class Kerucut {
         Kerucut k1 = new Kerucut();
         k1.jariJari = 7;
         k1.tinggi = 10;
-        k1.hitungVolume();
+        k1.hitungVol();
         k1.hitungLuasSelimut();
     }
 }
