@@ -16,12 +16,12 @@ public class Bola {
     
     // methods
     public void hitungVolume(){
-        double hasil = 4 / 3 * 3.14 * jariJari * jariJari * jariJari;
+        double hasil = (double) 4 / 3 * Math.PI * jariJari * jariJari * jariJari;
         System.out.println("Volume bola: " + hasil);
     }
     
     public void hitungLuasSelimut(){
-        double hasil = 4 * 3.14 * jariJari * jariJari;
+        double hasil = 4 * Math.PI * jariJari * jariJari;
         System.out.println("Luas selimut bola: " + hasil);
     }
     

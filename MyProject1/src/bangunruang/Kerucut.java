@@ -17,14 +17,22 @@ public class Kerucut {
     
     // methods
     public void hitungVolume(){
-        double hasil = 1 / 3 * 3.14 * jariJari * jariJari * tinggi;
+        double hasil = (double) 1 / 3 * Math.PI * jariJari * jariJari * tinggi;
         System.out.println("Volume kerucut: " + hasil);
     }
     
     public void hitungLuasSelimut(){
         double garisPelukis = (double) (jariJari * jariJari) + (tinggi * tinggi);
         double s = Math.sqrt(garisPelukis);
-        double hasil = 22 / 7 * jariJari * s;
+        double hasil = Math.PI * jariJari * s;
         System.out.println("Luas selimut kerucut: " + hasil);
+    }
+    
+    public static void main(String[] args){
+        Kerucut k1 = new Kerucut();
+        k1.jariJari = 7;
+        k1.tinggi = 10;
+        k1.hitungVolume();
+        k1.hitungLuasSelimut();
     }
 }

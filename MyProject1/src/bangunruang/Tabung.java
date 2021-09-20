@@ -17,13 +17,20 @@ public class Tabung {
     
     // methods
     public void hitungVolume(){
-        double hasil = 3.14 * jariJari * jariJari * tinggi;
+        double hasil = Math.PI * jariJari * jariJari * tinggi;
         System.out.println("Volume tabung: " + hasil);
     }
     
     public void hitungLuasSelimut(){
-        double hasil = 2 * 3.14 * jariJari * tinggi;
+        double hasil =  2 * Math.PI * jariJari * tinggi;
         System.out.println("Luas selimut tabung: " + hasil);
     }
     
+    public static void main(String[] args){
+        Tabung t1 = new Tabung();
+        t1.jariJari = 7;
+        t1.tinggi = 10;
+        t1.hitungVolume();
+        t1.hitungLuasSelimut();
+    }
 }

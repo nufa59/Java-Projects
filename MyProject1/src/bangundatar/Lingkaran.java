@@ -16,12 +16,12 @@ public class Lingkaran {
     
     // methods
     public void hitungLuas(){
-        double hasil = 3.14 * jariJari * jariJari;
+        double hasil = Math.PI * jariJari * jariJari;
         System.out.println("Luas lingkaran: " + hasil);
     }
     
     public void hitungKeliling(){
-        double hasil = 2 * 3.14 * jariJari;
+        double hasil = 2 * Math.PI * jariJari;
         System.out.println("Keliling lingkaran " + hasil);
     }
     
