@@ -16,7 +16,7 @@ public class Tabung {
     int tinggi;
     
     // methods
-    public void hitungVolume(){
+    public void hitungVol(){
         double hasil = Math.PI * jariJari * jariJari * tinggi;
         System.out.println("Volume tabung: " + hasil);
     }
@@ -30,7 +30,7 @@ public class Tabung {
         Tabung t1 = new Tabung();
         t1.jariJari = 7;
         t1.tinggi = 10;
-        t1.hitungVolume();
+        t1.hitungVol();
         t1.hitungLuasSelimut();
     }
 }

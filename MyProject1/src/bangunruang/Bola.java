@@ -15,7 +15,7 @@ public class Bola {
     int jariJari;
     
     // methods
-    public void hitungVolume(){
+    public void hitungVol(){
         double hasil = (double) 4 / 3 * Math.PI * jariJari * jariJari * jariJari;
         System.out.println("Volume bola: " + hasil);
     }
@@ -29,7 +29,7 @@ public class Bola {
     public static void main(String[] args){
         Bola b1 = new Bola();
         b1.jariJari = 21;
-        b1.hitungVolume();
+        b1.hitungVol();
         b1.hitungLuasSelimut();
     }
     
