@@ -15,8 +15,6 @@ public class ProjectLuasBangunKompleks {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // Project 1
-        System.out.println("Project 1");
         
         // luas persegi
         Persegi persegi = new Persegi();
@@ -30,22 +28,6 @@ public class ProjectLuasBangunKompleks {
         // luas bangun
         double luasBangun = luasPersegi + luasTotalLingkaran;
         System.out.println("Luas bangun : " +  luasBangun);
-        
-        // Project 2
-        System.out.println("\nProject 2");
-        
-        // menghitung luas setengah lingkaran besar
-        Lingkaran lingkaranBesar = new Lingkaran();
-        double luasLingkaranBesar = lingkaranBesar.hitungLuas(14)/2;
-        
-        // menghitung lingkaran kecil
-        Lingkaran lingkaranKecil = new Lingkaran();
-        double jejariKecil = (double) 28/4;
-        double luasLingkaranKecil = lingkaranKecil.hitungLuas(jejariKecil);
-        
-        // menghitung luas bagian yang diarsir
-        double luasBangun2 = luasLingkaranBesar - luasLingkaranKecil;
-        System.out.println("Luas Bangun: " + luasBangun2);
         
     }
     
