@@ -27,22 +27,22 @@ public class Segitiga {
     }
     
     double hitungKeliling(int alas, int tinggi){
-        double sisi = Math.sqrt((0.5 * alas) * (0.5 * alas) + tinggi * tinggi);
-        return 2 * sisi + alas;
+        double sisiMiring = Math.sqrt(alas * alas + tinggi * tinggi);
+        return sisiMiring + alas + tinggi;
     }
     
     double hitungKeliling(int alas, double tinggi){
-        double sisi = Math.sqrt((0.5 * alas) * (0.5 * alas) + tinggi * tinggi);
-        return 2 * sisi + alas;
+        double sisiMiring = Math.sqrt(alas * alas + tinggi * tinggi);
+        return sisiMiring + alas + tinggi;
     }
     
     double hitungKeliling(double alas, int tinggi){
-        double sisi = Math.sqrt((0.5 * alas) * (0.5 * alas) + tinggi * tinggi);
-        return 2 * sisi + alas;
+        double sisiMiring = Math.sqrt(alas * alas + tinggi * tinggi);
+        return sisiMiring + alas + tinggi;
     }
     
     double hitungKeliling(double alas, double tinggi){
-        double sisi = Math.sqrt((0.5 * alas) * (0.5 * alas) + tinggi * tinggi);
-        return 2 * sisi + alas;
+        double sisiMiring = Math.sqrt(alas * alas + tinggi * tinggi);
+        return sisiMiring + alas + tinggi;
     }
 }
